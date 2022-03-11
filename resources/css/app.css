@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+
+    .spanMenu {
+        @apply absolute bg-black rounded block w-6 h-0.5 right-0;
+    }
+
+    .link {
+        @apply inline-flex text-black text-base uppercase;
+    }
+    .link.active {
+        @apply font-medium border-red border-b-1.5;
+    }
+
+@tailwind utilities;
